@@ -38,7 +38,6 @@ class ReadBox(BoxLayout):
         text = self.addhomework.text
         global homework
         homework[text] = 5
-        homework.flush()
         print(homework)
 
 class DemoApp(App):
